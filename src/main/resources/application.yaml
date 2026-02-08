@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: DockerDemo
+
+management:
+  endpoint:
+    health:
+      probes:
+        enabled: true
